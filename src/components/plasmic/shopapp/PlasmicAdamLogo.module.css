@@ -1,0 +1,13 @@
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  position: relative;
+  font-size: 63px;
+  font-family: "Limelight";
+  opacity: 1;
+  text-align: left;
+  background: none;
+  min-width: 0;
+  display: block;
+}

@@ -1,0 +1,203 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": "3.8.0",
+      "cssFilePath": "plasmic/react_slick/plasmic_react_slick.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "Slider",
+          "componentImportPath": "react-slick"
+        }
+      ]
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.8.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ]
+    },
+    {
+      "projectId": "hRiCxzQw6uAnAF5XWxoyQB",
+      "projectApiToken": "Gb4fJysIG31nfgHH9AQVrICvLf4vqIdWqZKrTdWDlGhva7S0NTT5phYsAnqkQygx6OxRng1mzf2hUunuwA",
+      "projectName": "shopapp",
+      "version": "latest",
+      "cssFilePath": "plasmic/shopapp/plasmic_shopapp.module.css",
+      "components": [
+        {
+          "id": "llMzhtmToEkM",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "hRiCxzQw6uAnAF5XWxoyQB",
+          "renderModuleFilePath": "plasmic/shopapp/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/shopapp/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ebECvvG35vI",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "hRiCxzQw6uAnAF5XWxoyQB",
+          "renderModuleFilePath": "plasmic/shopapp/PlasmicButton2.jsx",
+          "importSpec": {
+            "modulePath": "Button2.jsx"
+          },
+          "cssFilePath": "plasmic/shopapp/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "qokfWMviD1",
+          "name": "AdamLogo",
+          "type": "managed",
+          "projectId": "hRiCxzQw6uAnAF5XWxoyQB",
+          "renderModuleFilePath": "plasmic/shopapp/PlasmicAdamLogo.jsx",
+          "importSpec": {
+            "modulePath": "AdamLogo.jsx"
+          },
+          "cssFilePath": "plasmic/shopapp/PlasmicAdamLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "e8GTkCTt7n-",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/shopapp/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "rScP3g1V7mD",
+          "name": "Icon38Icon",
+          "moduleFilePath": "plasmic/shopapp/icons/PlasmicIcon__Icon38.jsx"
+        },
+        {
+          "id": "4QbprynNltN",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/shopapp/icons/PlasmicIcon__Icon14.jsx"
+        },
+        {
+          "id": "vvt2medwZhY",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/shopapp/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "NurqsErWanI",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/shopapp/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "XzxmUSMgO3w",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/shopapp/icons/PlasmicIcon__Icon28.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "z_rtu7Rt2_C",
+          "name": "image",
+          "filePath": "plasmic/shopapp/images/image.svg"
+        },
+        {
+          "id": "vZacuhFam",
+          "name": "Adam_highly_detailed_futuristic_cars_racing_in_space_league_of__633d1d74-90c1-4fd0-85b6-fc872411a60c.png",
+          "filePath": "plasmic/shopapp/images/adamHighlyDetailedFuturisticCarsRacingInSpaceLeagueOf633D1D7490C14Fd085B6Fc872411A60Cpng.png"
+        },
+        {
+          "id": "Oo7V3lfc_",
+          "name": "Adam_T-shirt_design_Lionel_Messi_full_body_from_behind_deklart__4ff53343-b64f-4277-92c3-d27587979816.png",
+          "filePath": "plasmic/shopapp/images/adamTShirtDesignLionelMessiFullBodyFromBehindDeklart4Ff53343B64F427792C3D27587979816Png.png"
+        },
+        {
+          "id": "qyGqZtUne",
+          "name": "Adam_sketch_of_a_man_walking_in_the_rain_blackwhite_b848dd52-8c59-43f9-a807-09695e8c0bc5.png",
+          "filePath": "plasmic/shopapp/images/adamSketchOfAManWalkingInTheRainBlackwhiteB848Dd528C5943F9A80709695E8C0Bc5Png.png"
+        },
+        {
+          "id": "ou8vP2fN3",
+          "name": "Adam_Macaw_full_color_painting_ffff4c98-c0ce-45aa-b6ee-73a7760e6677.png",
+          "filePath": "plasmic/shopapp/images/adamMacawFullColorPaintingFfff4C98C0Ce45AaB6Ee73A7760E6677Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "bRV_ZOkBxS",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "mVGgQh-JYM",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "Tivf36IHsR",
+          "name": "Animationdiv",
+          "componentImportPath": "../components/Animationdiv"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "gFNqF1JBOkX5P",
+        "name": "Screen",
+        "projectId": "hRiCxzQw6uAnAF5XWxoyQB",
+        "contextFilePath": "plasmic/shopapp/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.205",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.205/dist/plasmic.schema.json"
+}
